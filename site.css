@@ -1,0 +1,55 @@
+:root {
+  --black: #111;
+  --bodywhite: #fdfbfb;
+  --lightgray: rgb(220, 220, 220);
+  --tkdblue: #1a468d;
+  --tkdred: #e41d38;
+  --gray: rgb(70, 70, 70);
+}
+
+body {
+  background: var(--bodywhite);
+}
+.navbar-burger span {
+  background-color: black;
+}
+
+.navbar-burger:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.hero-body {
+  background-image: url(./Images/Header\ Image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.has-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  max-width: 85%;
+}
+
+.card-header {
+  background-color: var(--tkdblue);
+  align-items: center;
+  justify-content: center;
+}
+
+.tkdlogo {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: var(--tkdred);
+}
+
+.formfield {
+  margin-top: 3rem;
+}
