@@ -19,6 +19,19 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  const navMenu = document.getElementById('navbarBasicExample'); // Or your menu's ID/class
+  const navBurger = document.querySelector('.navbar-burger');
+  const navLinks = document.querySelectorAll('.navbar-item'); // Or your menu links
+
+  navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      navMenu.classList.remove('is-active'); // Or toggle a style like display:none
+      navBurger.classList.remove('is-active');
+    });
+  });
+});
+
 document.addEventListener('DOMContentLoaded', function () {
   const header = document.querySelector('nav'); // Or your specific header selector
   const headerHeight = header.offsetHeight;

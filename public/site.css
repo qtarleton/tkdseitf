@@ -71,6 +71,13 @@ body {
   min-width: 10rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .bt-schedule,
+  .bt-contact {
+    display: none;
+  }
+}
+
 .formfield {
   margin-top: 3rem;
 }
@@ -110,6 +117,12 @@ body {
   max-width: 1550px;
   margin: 0 auto;
   align-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .top-bar-right {
+    display: none;
+  }
 }
 
 .top-bar-right a {
