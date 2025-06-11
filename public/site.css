@@ -8,7 +8,10 @@
 }
 
 body {
-  background: var(--bodywhite);
+  background: var(--black);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .navbar-burger span {
   background-color: black;
@@ -25,11 +28,26 @@ body {
   background-size: cover;
 }
 
+.lexend-giga-header {
+  font-family: 'Lexend Giga', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-header {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .has-logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .logo {
   max-width: 85%;
 }
@@ -48,8 +66,77 @@ body {
 
 .button {
   background-color: var(--tkdred);
+  border: none;
+  font-family: 'Lexend Giga', sans-serif;
+  min-width: 10rem;
 }
 
 .formfield {
   margin-top: 3rem;
+}
+
+#schedule,
+#about {
+  background-color: var(--tkdblue);
+  color: white;
+}
+
+.about-pic {
+  width: 12rem;
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  filter: grayscale(1);
+}
+
+.about-body {
+  font-size: 0.85rem;
+}
+
+.collage-pic {
+  max-height: 600px;
+}
+
+.footer {
+  background-color: var(--tkdred);
+  color: #fdfbfb;
+}
+
+.top-bar-right {
+  float: right;
+  width: 100%;
+  color: var(--gray);
+  padding: 0 20px;
+  max-width: 1550px;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.top-bar-right a {
+  color: var(--gray);
+}
+
+.top-social {
+  float: left;
+  margin: 0 15px 0 0;
+  padding: 0;
+  width: auto;
+}
+
+.top-bar-location-details {
+  float: right;
+  width: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  line-height: 1.2em;
+}
+
+.top-social li {
+  float: left;
+  width: auto;
+  list-style-type: none;
+  font-size: 1rem;
+  position: relative;
 }
