@@ -170,3 +170,7 @@ body {
   font-weight: 300;
   font-style: normal;
 }
+
+#reviews {
+  background-color: var(--bodywhite);
+}
